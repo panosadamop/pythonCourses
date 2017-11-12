@@ -10,5 +10,4 @@ geo = [{'address_components': [{'name': 'WHITE TOWER',
                                                        'point_of_interest',
                                                        'establishment']}}]}]
 
-
 print (geo[0]['address_components'][2]['geometry']['location']['lat'])
